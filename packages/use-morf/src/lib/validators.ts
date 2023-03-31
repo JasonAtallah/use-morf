@@ -15,7 +15,7 @@ interface StrictRule extends Rule {
 
 export type StrictRules = StrictRule[];
 
-export const Validators: { [key: string]: Rule } = {
+export const Validators = {
   notLessThanZero: {
     testFn: (i: number) => i < 0,
     message: 'Cannot be less than 0',

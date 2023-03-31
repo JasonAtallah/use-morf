@@ -1,10 +1,11 @@
 import { useMorf, Validators } from '@morf/use-morf';
 
 export default function App() {
-  const { props, values, reset, valid, controls, hasError } = useMorf({
+  const { props, values, reset, valid, controls } = useMorf({
     name: {
       type: 'text',
       label: 'Name',
+      defaultValue: 'John Doe',
       rules: [Validators.requiredStr, Validators.isEmail],
     },
     age: {
