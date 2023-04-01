@@ -1,5 +1,9 @@
 {
   "name": "use-morf",
-  "version": "0.0.2",
-  "type": "commonjs"
+  "version": "0.0.6",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JasonAtallah/use-morf.git"
+  }
 }
